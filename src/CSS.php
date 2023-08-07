@@ -549,7 +549,6 @@ class CSS extends Minify
     {
         $weights = array(
             'normal' => 400,
-            'bold' => 700,
         );
 
         $callback = function ($match) use ($weights) {
